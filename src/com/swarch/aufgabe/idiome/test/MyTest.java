@@ -100,7 +100,7 @@ public class MyTest {
 		final Random random = new Random();
 		treeSetBlocks.clear();
 		for(int i = 0; i<10; i++){
-			treeSetBlocks.add(new Block(random.nextInt(6)+1, random.nextInt(6)+1, random.nextInt(45)+1));
+			treeSetBlocks.add(new Block(random.nextInt(3)+1, random.nextInt(3)+1, random.nextInt(45)+1));
 		}
 		for(Block b: treeSetBlocks){
 			System.out.println("w: " + b.getWidth() + ", h: " + b.getHeight() + ", d: " + b.getDepth());
